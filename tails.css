@@ -1,0 +1,22 @@
+.download {
+    max-width: 300px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #804000;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: #ffff;
+  }
+  
+  #printButton {
+    background-color: #004000;
+  }

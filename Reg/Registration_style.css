@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: san-serif;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background-image:url(pinachy.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: san-serif;
+	color: white;
+}
+.container{
+	width: 360px;
+	height: 400px;
+	margin: 10% auto;
+	background: #f70505;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+}
+
+h3{
+	text-align: center;
+	margin-bottom: 20px;
+	color: #080808;
+}
+.container form{
+	width: 280px;
+	position: absolute;
+	top: 100px;
+	left: 40px;
+	transition: 0.5s
+}
+.option{
+	border: none;
+	text-align: center;
+}
+select{
+	background-color: #f70505;
+	cursor: pointer;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	outline: none;
+	border: none;
+}
+form input{
+	width: 100%;
+	padding: 10px 5px;
+	margin: 5px 0;
+	border: 0;
+	border: none;
+	outline: none;
+	background:  #f70505;
+}
+input{
+	color: white;
+	font-size: 17px;
+}
+::placeholder{
+	color: white;
+}
+.login{
+	position: absolute;
+	font-family: sans-serif;
+	padding: 6px 120px;
+	border-bottom: 1px solid #ff0c0c;
+}
+.btn-box{
+	width: 100%;
+	margin: 30px auto;
+	text-align: center;
+}
+.stylish{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 17px;
+	color: rgb(60, 236, 16);
+}
+form button{
+	width: 110px;
+	height: 35px;
+	margin: 0 10px;
+	background: linear-gradient(to right, #008000,#ffad06);
+	border-radius: 30px;
+	border: 0;
+	outline: none;
+	color: #fff;
+	cursor: pointer;
+}
+#step2{
+	top: 450px;
+}
+#step3{
+	top: 450px;
+}
+.step-row{
+	width: 360px;
+	height: 40px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 -1px 5px -1px #000;
+	position: relative;
+}
+.step-col{
+	width: 120px;
+	text-align: center;
+	color: #333;
+	position: relative;
+}
+#progress{
+	position: absolute;
+	height: 100%;
+	width: 120px;
+	background: linear-gradient(to right, #008000,#ffad06);
+	transition: 1s;
+}
+#progress::after{
+	content: '';
+	height: 0;
+	width: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	position: absolute;
+	right: -20px;
+	top: 0;
+	border-left: 20px solid #ffad06;
+} 

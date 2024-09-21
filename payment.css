@@ -1,0 +1,59 @@
+body{
+    background-image: url(Ngong.jpg);
+    background-position: center;
+}
+.payment{
+    width: 25rem;
+    background-color: rgb(19, 197, 34);
+    position: relative;
+    left: 35%;
+    border-radius: 5%;
+    text-align: center;
+    
+}
+h1{
+    margin: 1rem;
+    text-align: center;
+    color: white;
+}
+#check{
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+select{
+    background-color: rgb(19, 197, 34);
+    border: none;
+    margin-left: 7rem;
+}
+.M_pesa{
+    color: white;
+    padding: 1rem;
+}
+img{
+    width: 95%;
+    margin-left: 2%;
+}
+.VISA{
+    color: white;
+    margin: 2rem;
+    text-align: center;
+}
+#visa{
+    align-content: center;
+}
+button{
+	width: 110px;
+	height: 35px;
+	margin: 0 20px;
+	background: linear-gradient(to right, #008000,#ffad06);
+	border-radius: 30px;
+	border: 0;
+	outline: none;
+    cursor: pointer;
+	color: #fff;
+}
+.button{
+    margin: 2rem;
+    margin-top: 1rem;
+}

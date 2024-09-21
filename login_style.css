@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login{
+    height: 100%;
+    width: 100%;
+    background-image: url(pinachy.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+.loginform{
+    width:  292px;
+    height: 480px;
+    position: relative;
+    margin: 10% auto;
+    background:rgb(236, 97, 97);
+    padding:  1rem;
+    border-radius: 35px;
+    margin-top: 5rem;
+}
+.controls{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.controls > h3{
+    margin-bottom: 1rem;
+    color:#fff;
+    margin-top: 4rem;
+}
+.controls > input{
+    margin-bottom: 1rem;
+    width: 70%;
+    outline: none red;
+    padding: 17px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.controls > button{
+    
+	width: 110px;
+	height: 35px;
+    padding: 6px 15px;
+    color: #fff;
+    font-size: 17px;
+    background: linear-gradient(to right,  #008000,#ffad06);
+    border: none;
+    border-radius: 30px;
+    margin-top: 0.7rem;
+    cursor: pointer;
+}
+.controls{
+    width: 250px;
+    margin-bottom: 1.5rem;
+    border-radius: 20%;
+}
+img{
+    width: 323px;
+    margin-left: 16%;
+    height: 50%;
+    margin-bottom: 1.5rem;
+}
+.controls > select{
+    width: 80%;
+    margin-bottom: 1.5rem;
+    padding: 0px;
+    margin-top: auto;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.remember > input{
+    width: 50px;
+    height: 15px;
+}
+.remember{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+select{
+    background:rgb(236, 97, 97);
+    text-align: center;
+    color: white;
+    outline: none;
+    border: none;
+}
+.remember > span{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width:450px) {
+    .loginform{
+        width: 70%;
+        height: 70%;
+    }
+}

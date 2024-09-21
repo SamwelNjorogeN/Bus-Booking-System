@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background: orange;
+    color: white;
+}
+.vehicle{
+    width: 30pc;
+    height: 37rem;
+    background: rgb(162, 228, 64);
+    margin-left: 28pc;
+    border-radius: 5%;
+    margin-top: 4%;
+}
+button:hover{
+    background: green;
+}
+button{
+	width: 150px;
+	height: 45px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, #008000,#ffad06);
+    border-radius: 30px;
+	outline: none;
+	color: #fff;
+	cursor: pointer;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 30%;
+}
+label,h2{
+    color: black;
+}
+label{
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+input{
+    width: 200px;
+    border: none;
+    outline: none;
+    background: rgb(162, 228, 64);
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    margin-left: 10%;
+    margin-top: 2pc;
+    font-weight: bolder;
+}
+#kenya,#kenya1,#kenya2{
+    margin-left: 14%;
+}
+#kenya4{
+    margin-left: 10%;
+}
+#main{
+    margin-left: 10%;
+}
+#kenya3{
+    margin-left: 8%;
+}
